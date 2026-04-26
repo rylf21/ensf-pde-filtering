@@ -1,0 +1,30 @@
+# Generated data and figures — reproduce by running notebooks
+data/*
+figures/*
+heat_equation/figures/*
+allen_cahn/figures/*
+
+# Keep folder structure when cloning
+!data/.gitkeep
+!figures/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# Data file formats
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.xdmf
+*.h5p
+
+# Zip files
+*.zip
+
+# OS
+.DS_Store
+Thumbs.db
